@@ -30,6 +30,16 @@ extension ViewController: UIPickerViewDelegate{
         return iPhones[row]
     }
 
+    func pickerView(pickerView: UIPickerView, viewForRow row: Int, forComponent component: Int, reusingView view: UIView?) -> UIView{
+        let l = UILabel()
+        let val = iPhones[row]
+        l.text = val
+        l.accessibilityLabel = val
+        return l
+    }
+
+
+
     func pickerView(pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
         selectedItemlabel.text = iPhones[row]
     }
