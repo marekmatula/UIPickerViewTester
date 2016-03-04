@@ -16,4 +16,16 @@ class UIPickerViewTesterUITests: XCTestCase {
         app.pickerWheels.element.adjustToPickerWheelValue("iPhone 3GS")
         XCTAssert(app.staticTexts["iPhone 3GS"].exists)
     }
+
+    func testAspPicker() {
+        let app = XCUIApplication()
+        app.launch()
+
+        app.buttons["ActionPicker"].tap()
+
+        app.buttons["ActionPicker"].tap()
+
+        app.pickerWheels.element.adjustToPickerWheelValue("iPhone 5")
+        XCTAssert(app.staticTexts["iPhone 5"].exists)
+    }
 }
