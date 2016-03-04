@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F19FE711C89AA3800D32231 /* AspViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F19FE701C89AA3800D32231 /* AspViewController.swift */; };
 		84714DEC1B8C9C9B0089C69F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84714DEB1B8C9C9B0089C69F /* AppDelegate.swift */; };
 		84714DEE1B8C9C9B0089C69F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84714DED1B8C9C9B0089C69F /* ViewController.swift */; };
 		84714DF11B8C9C9B0089C69F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84714DEF1B8C9C9B0089C69F /* Main.storyboard */; };
@@ -28,6 +29,7 @@
 
 /* Begin PBXFileReference section */
 		1977BF19BD6B6D53C06D722D /* Pods-App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App.release.xcconfig"; path = "Pods/Target Support Files/Pods-App/Pods-App.release.xcconfig"; sourceTree = "<group>"; };
+		1F19FE701C89AA3800D32231 /* AspViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AspViewController.swift; sourceTree = "<group>"; };
 		33CC14F2889EDA804D268196 /* Pods_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		84714DE81B8C9C9B0089C69F /* App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = App.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84714DEB1B8C9C9B0089C69F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 				84714DF41B8C9C9B0089C69F /* LaunchScreen.storyboard */,
 				84714DEF1B8C9C9B0089C69F /* Main.storyboard */,
 				84714DED1B8C9C9B0089C69F /* ViewController.swift */,
+				1F19FE701C89AA3800D32231 /* AspViewController.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -273,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84714DEE1B8C9C9B0089C69F /* ViewController.swift in Sources */,
+				1F19FE711C89AA3800D32231 /* AspViewController.swift in Sources */,
 				84714DEC1B8C9C9B0089C69F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
